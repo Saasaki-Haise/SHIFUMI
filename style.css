@@ -318,7 +318,7 @@ body #resultat #parent p {
     display: block;
     position: absolute;
     top: 0;
-    background: black;
+    background: white;
     width: 100%;
   }
   #modale .container-modale {
@@ -359,6 +359,7 @@ body #resultat #parent p {
     color: white;
   }
   #modale video {
+    opacity: 0;
     padding: 0;
     margin: 0;
     width: 100%;
