@@ -204,9 +204,20 @@ body #resultat #parent p {
   body #game {
     position: relative;
   }
+  body a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   body a img {
     height: 50px;
-    padding: 20px;
+    width: 300px;
   }
   body #action {
     display: -webkit-box;
