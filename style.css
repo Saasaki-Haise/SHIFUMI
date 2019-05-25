@@ -184,7 +184,7 @@ body #resultat #parent p {
   height: 100vh;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   * {
     margin: 0;
     padding: 0;
@@ -205,7 +205,7 @@ body #resultat #parent p {
     position: relative;
   }
   body a img {
-    height: 80px;
+    height: 50px;
     padding: 20px;
   }
   body #action {
@@ -263,10 +263,10 @@ body #resultat #parent p {
   body #resultat #moi #myPoke {
     height: 100px;
     width: 100px;
+    margin-bottom: 50px;
   }
   body #resultat #moi img {
     height: 100px;
-    margin-top: 50px;
   }
   body #resultat #ia {
     display: -webkit-box;
@@ -280,10 +280,10 @@ body #resultat #parent p {
   body #resultat #ia #IAPoke {
     height: 100px;
     width: 100px;
+    margin-bottom: 50px;
   }
   body #resultat #ia img {
     height: 100px;
-    margin-top: 50px;
   }
   body #resultat #parent {
     font-size: 20px;
